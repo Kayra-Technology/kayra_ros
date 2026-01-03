@@ -1,0 +1,2 @@
+[console_scripts]
+teleop_keyboard = garp_tools.teleop_keyboard:main
