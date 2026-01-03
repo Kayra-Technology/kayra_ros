@@ -1,0 +1,20 @@
+[0.917s] Invoking command in '/home/omerb/garp9_ws/build/garp_tools': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv-ardupilot) PYTHONPATH=/home/omerb/garp9_ws/build/garp_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/omerb/garp9_ws/install/garp_tools/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/omerb/garp9_ws/build/garp_tools/build --no-deps symlink_data --force
+[1.234s] running develop
+[1.456s] running egg_info
+[1.480s] writing garp_tools.egg-info/PKG-INFO
+[1.480s] writing dependency_links to garp_tools.egg-info/dependency_links.txt
+[1.480s] writing entry points to garp_tools.egg-info/entry_points.txt
+[1.480s] writing requirements to garp_tools.egg-info/requires.txt
+[1.480s] writing top-level names to garp_tools.egg-info/top_level.txt
+[1.518s] reading manifest file 'garp_tools.egg-info/SOURCES.txt'
+[1.519s] writing manifest file 'garp_tools.egg-info/SOURCES.txt'
+[1.544s] running build_ext
+[1.544s] Creating /home/omerb/garp9_ws/install/garp_tools/lib/python3.12/site-packages/garp-tools.egg-link (link to .)
+[1.544s] Installing odom_to_tf script to /home/omerb/garp9_ws/install/garp_tools/lib/garp_tools
+[1.545s] Installing teleop_keyboard script to /home/omerb/garp9_ws/install/garp_tools/lib/garp_tools
+[1.545s] 
+[1.545s] Installed /home/omerb/garp9_ws/build/garp_tools
+[1.545s] running symlink_data
+[1.545s] symbolically linking /home/omerb/garp9_ws/build/garp_tools/resource/garp_tools -> /home/omerb/garp9_ws/install/garp_tools/share/ament_index/resource_index/packages
+[1.545s] symbolically linking /home/omerb/garp9_ws/build/garp_tools/package.xml -> /home/omerb/garp9_ws/install/garp_tools/share/garp_tools
+[1.593s] Invoked command in '/home/omerb/garp9_ws/build/garp_tools' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv-ardupilot) PYTHONPATH=/home/omerb/garp9_ws/build/garp_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/omerb/garp9_ws/install/garp_tools/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/omerb/garp9_ws/build/garp_tools/build --no-deps symlink_data --force
