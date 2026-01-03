@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="garp_robot">
+
+    <gazebo>
+        <plugin 
+            filename="gz-sim-joint-state-publisher-system"
+            name="gz::sim::systems::JointStatePublisher">
+            <topic>garp/joint_states</topic>
+        </plugin>
+    </gazebo>
+
+</robot>
