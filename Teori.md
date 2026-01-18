@@ -53,7 +53,7 @@
 
 # Önsöz – Amaç
 
-Bu el kitabı, **ROS2** altyapısı kullanılarak **Otonom Mobil Robot (AMR)** geliştirme sürecini profesyonel ve sistematik bir şekilde öğrenmek isteyen mühendisler, öğrenciler ve araştırmacılar için hazırlanmıştır.
+Bu el kitabı, ROS2 altyapısı kullanılarak Otonom Robot geliştirme sürecini profesyonel ve sistematik bir şekilde öğrenmek isteyen mühendisler, öğrenciler ve araştırmacılar için hazırlanmıştır.
 
 ### Bu Dokümanın Hedefleri
 
@@ -63,15 +63,15 @@ Bu el kitabı, **ROS2** altyapısı kullanılarak **Otonom Mobil Robot (AMR)** g
 - Simülasyonda bir AMR'yi tasarlamak ve test etmek
 - Gerçek robot üzerinde kullanılabilecek sağlam bir bilgi temeli oluşturmak
 
-> **📌 Not:** Bu dokümana eşlik eden uygulama alıştırmaları için **GARPamr_edu** projesine bakınız.
+> Not: Bu dokümana eşlik eden uygulama alıştırmaları için **GARPamr_edu** projesine bakınız.
 
 ---
 
 # Konumlama
 
-**Konumlama** (*localization*), bir robotun uzayda hangi pozisyonda ve hangi yönelimde bulunduğunun ölçülmesi ve hesaplanması sürecidir. AMR sistemleri için konumlama, robotun çevresini anlaması ve güvenli şekilde hareket edebilmesi adına kritik bir bileşendir.
+Konumlama(*localization*), bir robotun uzayda hangi pozisyonda ve hangi yönelimde bulunduğunun ölçülmesi ve hesaplanması sürecidir. AMR sistemleri için konumlama, robotun çevresini anlaması ve güvenli şekilde hareket edebilmesi adına kritik bir bileşendir.
 
-> **⚠️ Konumlama doğru yapılmadığında:**
+>  Konumlama doğru yapılmadığında:
 > - Robot harita oluşturamaz
 > - Var olan harita üzerinde kendi konumunu bilemez
 > - Navigasyon ve çarpışma önleme mekanizmaları düzgün çalışamaz
@@ -163,7 +163,7 @@ Robotu simülasyon ortamında veya gerçek dünyada çalıştırabilmek için ö
 - Çarpışma modelleri
 - Görsel temsil
 
-> **💡 Önemli:** URDF modeli oluşturulduğunda, ROS2 bu modeli otomatik olarak **tf** yapısına dönüştürür:
+>  URDF modeli oluşturulduğunda, ROS2 bu modeli otomatik olarak **tf** yapısına dönüştürür:
 > - Her **link** → bir **frame**
 > - Her **joint** → bir **transform**
 
@@ -221,7 +221,7 @@ Bir link, üç temel bileşenden oluşur:
 </collision>
 ```
 
-> **⚠️ Performans:** Mesh yerine basit geometriler (box, sphere, cylinder) önerilir.
+> **Performans:** Mesh yerine basit geometriler (box, sphere, cylinder) önerilir.
 
 ### 3. Inertial Tag
 
